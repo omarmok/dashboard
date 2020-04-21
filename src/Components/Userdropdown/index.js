@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { NavDropdown } from "react-bootstrap";
-import style from "./style.css";
+import "./style.css";
 import { Userareaname } from "./style.js";
 
 class Userdropdown extends React.Component {

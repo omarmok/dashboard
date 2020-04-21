@@ -1,17 +1,19 @@
 .Custom {
   background: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 15px;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
 }
 
 .alert__image {
-  height: 60px;
-  width: 80px;
+  height: 65px;
+  width: 100px;
   border-left: 1px solid #f7f7f7;
+  padding-left: 15px;
 }
 
 .carousel {
@@ -20,11 +22,6 @@
 
 .carousel-inner {
   width: 93%;
-}
-
-.description {
-  color: #ff5f4f;
-  font-weight: 600;
 }
 
 .carousel-indicators {

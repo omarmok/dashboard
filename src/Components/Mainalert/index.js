@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Alert, Carousel } from "react-bootstrap";
 import Shout from "../../images/shout.svg"; // Tell webpack this JS file uses this image
-
-import { Custom } from "./style.css";
-import { Anchor } from "./style.js";
+import "./style.css";
+import { Anchor, Description } from "./style.js";
 
 class Mainalert extends Component {
   state = {
@@ -24,7 +23,7 @@ class Mainalert extends Component {
         <Carousel.Item key={alertsmessages.id}>
           <Carousel.Caption>
             <div class="d-flex justify-content-between   align-items-center">
-              <div className="description">{alertsmessages.description}</div>
+              <Description>{alertsmessages.description}</Description>
               <Anchor href={alertsmessages.link} className="btn ">
                 التفاصيل
               </Anchor>
