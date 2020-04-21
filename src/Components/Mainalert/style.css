@@ -1,0 +1,72 @@
+.Custom {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert__image {
+  height: 60px;
+  width: 80px;
+  border-left: 1px solid #f7f7f7;
+}
+
+.carousel {
+  width: 90%;
+}
+
+.description {
+  color: #ff5f4f;
+  font-weight: 600;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-caption {
+  position: relative;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background: #f9f9f9;
+  opacity: 1;
+  width: 3%;
+  height: 30px;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.carousel-control-next {
+  right: 97%;
+  top: 40px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev-icon:after {
+  background-image: url('../../images/up-arrow.svg');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: '';
+}
+
+.carousel-control-next-icon:after {
+  background-image: url('../../images/up-arrow.svg');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  transform: rotate(180deg);
+}

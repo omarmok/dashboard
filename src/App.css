@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: '29LT Bukra';
+  src: url('../src/fonts/29ltbukra.ttf');
+  src: local('29LT Bukra Light'), local('29LTBukra-Light'), format('ttf');
+  font-weight: 300;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'BukraAlt_Bold';
+  src: url('../src/fonts/BukraAlt_Bold.ttf');
+  src: local('BukraAlt_Bold'), local('BukraAlt_Bold'), format('woff2');
+  font-weight: 600;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  font-family: '29LT Bukra';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  direction: rtl;
+  background: #f9f9f9;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #000;
+  transition: transition-duration, 0.5s ease;
+  text-decoration: none !important;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
