@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Alert } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Mainalert from "../../Components/Mainalert";
 function Index() {
   return (

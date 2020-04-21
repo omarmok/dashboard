@@ -18,6 +18,10 @@
   width: 90%;
 }
 
+.carousel-inner {
+  width: 93%;
+}
+
 .description {
   color: #ff5f4f;
   font-weight: 600;

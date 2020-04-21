@@ -10,7 +10,7 @@
   font-family: 'BukraAlt_Bold';
   src: url('../src/fonts/BukraAlt_Bold.ttf');
   src: local('BukraAlt_Bold'), local('BukraAlt_Bold'), format('woff2');
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
 }
 

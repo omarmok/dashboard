@@ -1,0 +1,13 @@
+.NavDropdown__Item {
+    font-size: 12px;
+    text-align: right;
+}
+
+.dropdown-toggle {
+    height: 10px;
+}
+
+.dropdown-toggle::after {
+    border-top: 0.3em solid #0075B9;
+    font-size: 24px;
+}

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Link from "react-router-dom";
 import axios from "axios";
 import { Alert, Carousel } from "react-bootstrap";
 import Shout from "../../images/shout.svg"; // Tell webpack this JS file uses this image
