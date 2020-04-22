@@ -34,5 +34,24 @@
 
 .tableContainer {
     height: 500px;
-    ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tableContainer .table th {
+    color: #747474;
+    background: #f2f2f2;
+    font-size: 12px;
+    font-family: "BukraAlt_Bold";
+    border: none;
+}
+
+.tableContainer .table td {
+    font-size: 10px;
+    font-family: "BukraAlt_Bold";
+    background: #fff;
+    padding: 15px;
+    color: #bababa;
+    border: none;
+    margin-bottom: 5px;
 }

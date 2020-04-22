@@ -1,6 +1,7 @@
 import React from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import All from "./All";
 import Shout from "../../../images/paper.svg"; // Tell webpack this JS file uses this image
 import { Maintitle } from "./style.js";
 import "./style.css";
@@ -16,7 +17,9 @@ function Suits() {
       <div className="tabs">
         <Tabs defaultActiveKey="all" id="uncontrolled-tab-example">
           <Tab eventKey="all" title="الكل">
-            <div className="tableContainer">الكل</div>
+            <div className="tableContainer">
+              <All />
+            </div>
           </Tab>
           <Tab eventKey="two" title=" دعاوى التدقيق">
             دعاوى التدقيق
