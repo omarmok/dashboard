@@ -28,7 +28,7 @@ function Suits() {
             دعاوي الصلح
           </Tab>
 
-          <Tab eventKey="three" title=" دعاوي التحكيم">
+          <Tab eventKey="four" title=" دعاوي التحكيم">
             دعاوي التحكيم
           </Tab>
         </Tabs>

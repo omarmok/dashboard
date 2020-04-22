@@ -18,6 +18,10 @@
   font-family: '29LT Bukra';
 }
 
+html, body {
+  min-height: 100%
+}
+
 body {
   direction: rtl;
   background: #f9f9f9;
@@ -34,4 +38,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.App {
+  min-height: 100%;
 }
