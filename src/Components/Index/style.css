@@ -1,4 +1,4 @@
 .maincontent {
-    overflow: auto;
-    padding-bottom: 100px;
+    min-height: 100vh;
+    position: relative;
 }

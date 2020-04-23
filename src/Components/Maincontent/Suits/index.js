@@ -2,6 +2,9 @@ import React from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import All from "./All";
+import Checking from "./Checking";
+import Reconciliation from "./Reconciliation";
+import Arbitration from "./Arbitration";
 import Shout from "../../../images/paper.svg"; // Tell webpack this JS file uses this image
 import { Maintitle } from "./style.js";
 import "./style.css";
@@ -21,15 +24,21 @@ function Suits() {
               <All />
             </div>
           </Tab>
-          <Tab eventKey="two" title=" دعاوى التدقيق">
-            دعاوى التدقيق
+          <Tab eventKey="Checking" title=" دعاوى التدقيق">
+            <div className="tableContainer">
+              <Checking />
+            </div>
           </Tab>
-          <Tab eventKey="three" title="  دعاوي الصلح">
-            دعاوي الصلح
+          <Tab eventKey="Reconciliation" title="  دعاوي الصلح">
+            <div className="tableContainer">
+              <Reconciliation />
+            </div>
           </Tab>
 
-          <Tab eventKey="four" title=" دعاوي التحكيم">
-            دعاوي التحكيم
+          <Tab eventKey="Arbitration" title=" دعاوي التحكيم">
+            <div className="tableContainer">
+              <Arbitration />
+            </div>
           </Tab>
         </Tabs>
       </div>

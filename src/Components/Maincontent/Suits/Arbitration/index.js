@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Table from "react-bootstrap/Table";
 import DetailsImage from "../../../../images/document.svg";
 import "./style.css";
-class All extends Component {
+class Arbitration extends Component {
   handleClick() {
     console.log("this is:", this);
   }
@@ -70,4 +70,4 @@ class All extends Component {
   }
 }
 
-export default All;
+export default Arbitration;
