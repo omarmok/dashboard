@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const MessagesContainer = styled.div`
+export const JudgmentsContainer = styled.div`
   margin-top: 15px;
-  background: #0075bc;
+  background: #ff5f4f;
   color: #fff;
   padding: 15px 20px 15px 10px;
   text-align: right;
