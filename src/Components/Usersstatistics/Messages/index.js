@@ -23,7 +23,7 @@ function Messages() {
 
   return (
     <Link to="/">
-      <MessagesContainer>
+      <MessagesContainer className="animated pulse">
         <div className="">
           <MessagesImage className="d-block" />
           رسائل جديدة

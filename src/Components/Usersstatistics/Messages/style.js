@@ -26,7 +26,7 @@ export const MessagesContainer = styled.div`
     height: 50px;
     background: white;
     width: 10px;
-    right: 14px;
+    right: 0px;
     position: absolute;
   }
   &:hover {

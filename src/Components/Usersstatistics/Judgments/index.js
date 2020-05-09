@@ -22,8 +22,8 @@ function Judgments() {
   });
 
   return (
-    <Link to="/">
-      <JudgmentsContainer>
+    <Link to="/" >
+      <JudgmentsContainer className="animated slideInRight">
         <div className="">
           <JudgmentsImage className="d-block" />
           رسائل جديدة
