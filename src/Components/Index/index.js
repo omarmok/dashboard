@@ -14,7 +14,7 @@ function Index() {
         </Col>
       </Row>
 
-      <Row className="mt-3 mb-3">
+      <Row className="mt-3 mb-1">
         <Col md={3} sm={12}>
           <Usersstatistics />
         </Col>
