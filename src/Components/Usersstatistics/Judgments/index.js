@@ -23,7 +23,7 @@ function Judgments() {
 
   return (
     <Link to="/" >
-      <JudgmentsContainer className="animated slideInRight">
+      <JudgmentsContainer className="animated  bounceInUp">
         <div className="">
           <JudgmentsImage className="d-block" />
           رسائل جديدة

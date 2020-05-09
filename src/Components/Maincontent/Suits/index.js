@@ -11,7 +11,7 @@ import "./style.css";
 
 function Suits() {
   return (
-    <div className="Suits">
+    <div className="Suits animated bounceIn" >
       <Maintitle>
         <img src={Shout} alt="Shout" className="Maintitle__image" />
         الدعاوي
