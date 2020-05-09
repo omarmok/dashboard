@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import Mainnav from "./Components/Mainnav";
-import Footer from "./Components/Footer";
 import Index from "./Components/Index";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Mainnav />
         <Index />
-        <Footer />
+
       </BrowserRouter>
     </div>
   );

@@ -10,10 +10,8 @@ export const FooterStyle = styled.div`
   justify-content: center;
   font-size: 12px;
   flex-direction: column;
-  position: relative;
-  left: 0;
-  bottom: 0;
-  right: 0;
+ 
+  width: 100%;
 `;
 
 export const FooterUl = styled.ul`

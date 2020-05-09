@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+}
+
 .Maintitle__image {
     width: 40px;
     height: 40px;
@@ -10,7 +27,8 @@
     color: #999999;
 }
 
-.Suits .nav-tabs .nav-link.active, .Suits.nav-tabs .nav-item.show .nav-link {
+.Suits .nav-tabs .nav-link.active,
+.Suits.nav-tabs .nav-item.show .nav-link {
     color: #02a8c6;
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(222, 226, 230, 0) rgba(222, 226, 230, 0) rgba(255, 255, 255, 0);
@@ -18,12 +36,13 @@
     position: relative;
 }
 
-.Suits .nav-tabs .nav-link:hover, .Suits .nav-tabs .nav-link:focus {
+.Suits .nav-tabs .nav-link:hover,
+.Suits .nav-tabs .nav-link:focus {
     border-color: rgba(233, 236, 239, 0) rgb(233, 236, 239) rgb(222, 226, 230);
 }
 
 .Suits .nav-tabs .nav-link.active::after {
-    content: '';
+    content: "";
     height: 5px;
     background: #02a8c6;
     width: 100%;
@@ -33,9 +52,23 @@
 }
 
 .tableContainer {
-    height: 500px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.tableContainer tbody {
+    display: block;
+    height: 500px;
+    overflow: auto;
+}
+.tableContainer thead,
+.tableContainer tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.tableContainer thead {
+    width: calc(100% - 1em);
 }
 
 .tableContainer .table th {

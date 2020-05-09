@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Mainalert from "../../Components/Mainalert";
 import Usersstatistics from "../../Components/Usersstatistics";
 import Maincontent from "../../Components/Maincontent";
+import Footer from "../Footer"
 import "./style.css";
 function Index() {
   return (
@@ -19,9 +20,15 @@ function Index() {
         </Col>
         <Col md={9} sm={12}>
           <Maincontent />
+
+
         </Col>
       </Row>
+      <Row>
+        <Footer />
+      </Row>
     </Container>
+
   );
 }
 

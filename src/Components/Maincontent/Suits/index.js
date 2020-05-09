@@ -11,18 +11,21 @@ import "./style.css";
 
 function Suits() {
   return (
-    <div className="Suits animated bounceIn" >
+    <div className="Suits  animated bounceIn"  >
       <Maintitle>
         <img src={Shout} alt="Shout" className="Maintitle__image" />
         الدعاوي
       </Maintitle>
 
       <div className="tabs">
+
         <Tabs defaultActiveKey="all" id="uncontrolled-tab-example">
           <Tab eventKey="all" title="الكل">
+
             <div className="tableContainer">
               <All />
             </div>
+
           </Tab>
           <Tab eventKey="Checking" title=" دعاوى التدقيق">
             <div className="tableContainer">
@@ -42,6 +45,7 @@ function Suits() {
           </Tab>
         </Tabs>
       </div>
+
     </div>
   );
 }
