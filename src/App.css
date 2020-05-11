@@ -1,25 +1,26 @@
 @font-face {
-  font-family: '29LT Bukra';
-  src: url('../src/fonts/29ltbukra.ttf');
-  src: local('29LT Bukra Light'), local('29LTBukra-Light'), format('ttf');
+  font-family: "29LT Bukra";
+  src: url("../src/fonts/29ltbukra.ttf");
+  src: local("29LT Bukra Light"), local("29LTBukra-Light"), format("ttf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'BukraAlt_Bold';
-  src: url('../src/fonts/BukraAlt_Bold.ttf');
-  src: local('BukraAlt_Bold'), local('BukraAlt_Bold'), format('woff2');
+  font-family: "BukraAlt_Bold";
+  src: url("../src/fonts/BukraAlt_Bold.ttf");
+  src: local("BukraAlt_Bold"), local("BukraAlt_Bold"), format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 * {
-  font-family: '29LT Bukra';
+  font-family: "29LT Bukra";
 }
 
-html, body {
-  min-height: 100%
+html,
+body {
+  min-height: 100%;
 }
 
 body {
@@ -42,4 +43,8 @@ ul {
 
 .App {
   min-height: 100%;
+}
+
+.form-control {
+  font-size: 12px;
 }

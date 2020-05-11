@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 import "./style.css";
 import { ReactComponent as MessagesImage } from "../../..//images/Submitnew.svg";
 import { MessagesContainer } from "./style";
@@ -22,15 +21,15 @@ function Messages() {
   });
 
   return (
-    <Link to="/">
-      <MessagesContainer className="animated pulse">
-        <div className="">
-          <MessagesImage className="d-block" />
+
+    <MessagesContainer className="animated pulse">
+      <div className="">
+        <MessagesImage className="d-block" />
           رسائل جديدة
         </div>
-        {Usrmessages}
-      </MessagesContainer>
-    </Link>
+      {Usrmessages}
+    </MessagesContainer>
+
   );
 }
 export default Messages;

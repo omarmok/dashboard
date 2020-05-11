@@ -5,12 +5,14 @@ import All from "./All";
 import Checking from "./Checking";
 import Reconciliation from "./Reconciliation";
 import Arbitration from "./Arbitration";
+
 import Shout from "../../../images/paper.svg"; // Tell webpack this JS file uses this image
 import { Maintitle } from "./style.js";
 import "./style.css";
 
 function Suits() {
   return (
+
     <div className="Suits  animated slideInLeft"  >
       <Maintitle>
         <img src={Shout} alt="Shout" className="Maintitle__image" />
@@ -45,7 +47,6 @@ function Suits() {
           </Tab>
         </Tabs>
       </div>
-
     </div>
   );
 }

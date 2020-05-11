@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 import "./style.css";
 import { ReactComponent as JudgmentsImage } from "../../..//images/Submitnew.svg";
 import { JudgmentsContainer } from "./style";
@@ -22,15 +21,14 @@ function Judgments() {
   });
 
   return (
-    <Link to="/" >
-      <JudgmentsContainer className="animated  bounceInUp">
-        <div className="">
-          <JudgmentsImage className="d-block" />
-          رسائل جديدة
+    <JudgmentsContainer className="animated  bounceInUp">
+      <div className="">
+        <JudgmentsImage className="d-block" />
+          الدعاوى
         </div>
-        {UsrJudgments}
-      </JudgmentsContainer>
-    </Link>
+      {UsrJudgments}
+    </JudgmentsContainer>
+
   );
 }
 export default Judgments;
