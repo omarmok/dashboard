@@ -47,17 +47,17 @@ class All extends Component {
                 alt="DetailsImage"
                 className="DetailsImage"
               />
-            </Link>{" "}
-          </td>{" "}
+            </Link>
+          </td>
           <td>
             <button
               className="btn btn-danger"
               onClick={() => this.handleClick(allContent.id)}
             >
-              {" "}
-              حذف{" "}
+
+              حذف
             </button>
-          </td>{" "}
+          </td>
         </tr>
       );
     });
@@ -66,12 +66,12 @@ class All extends Component {
       <Table responsive>
         <thead>
           <tr>
-            <th> رقم الدعوي </th> <th> نوع الدعوي </th> <th> المدعي </th>{" "}
-            <th> المدعي علية </th> <th> حالة الطلب </th>{" "}
-            <th> تاريخ زخر تحديث </th> <th> التفاصيل </th> <th> حذف </th>{" "}
-          </tr>{" "}
-        </thead>{" "}
-        <tbody> {allcontainer} </tbody>{" "}
+            <th> رقم الدعوي </th> <th> نوع الدعوي </th> <th> المدعي </th>
+            <th> المدعي علية </th> <th> حالة الطلب </th>
+            <th> تاريخ زخر تحديث </th> <th> التفاصيل </th> <th> حذف </th>
+          </tr>
+        </thead>
+        <tbody> {allcontainer} </tbody>
       </Table>
     );
   }

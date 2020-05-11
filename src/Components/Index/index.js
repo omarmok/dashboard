@@ -5,7 +5,8 @@ import Usersstatistics from "../../Components/Usersstatistics";
 import Maincontent from "../../Components/Maincontent";
 import Footer from "../Footer"
 import "./style.css";
-function Index() {
+
+export default function Index() {
   return (
     <Container className="mt-5 maincontent">
       <Row>
@@ -32,4 +33,4 @@ function Index() {
   );
 }
 
-export default Index;
+
