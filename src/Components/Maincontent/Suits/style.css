@@ -88,3 +88,7 @@
     border: none;
     margin-bottom: 5px;
 }
+
+.fadeIn {
+    animation-duration: 2s;
+}

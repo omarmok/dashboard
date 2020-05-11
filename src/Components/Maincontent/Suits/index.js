@@ -11,7 +11,7 @@ import "./style.css";
 
 function Suits() {
   return (
-    <div className="Suits  animated bounceIn"  >
+    <div className="Suits  animated slideInLeft"  >
       <Maintitle>
         <img src={Shout} alt="Shout" className="Maintitle__image" />
         الدعاوي
@@ -22,24 +22,24 @@ function Suits() {
         <Tabs defaultActiveKey="all" id="uncontrolled-tab-example">
           <Tab eventKey="all" title="الكل">
 
-            <div className="tableContainer">
+            <div className="tableContainer animated fadeIn">
               <All />
             </div>
 
           </Tab>
           <Tab eventKey="Checking" title=" دعاوى التدقيق">
-            <div className="tableContainer">
+            <div className="tableContainer animated fadeIn">
               <Checking />
             </div>
           </Tab>
           <Tab eventKey="Reconciliation" title="  دعاوي الصلح">
-            <div className="tableContainer">
+            <div className="tableContainer animated fadeIn">
               <Reconciliation />
             </div>
           </Tab>
 
           <Tab eventKey="Arbitration" title=" دعاوي التحكيم">
-            <div className="tableContainer">
+            <div className="tableContainer animated fadeIn">
               <Arbitration />
             </div>
           </Tab>
