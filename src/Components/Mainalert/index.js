@@ -10,7 +10,7 @@ class Mainalert extends Component {
     alerts: [],
   };
   componentDidMount() {
-    axios.get("../data.json").then((res) => {
+    axios.get("https://api.npoint.io/7c336023e3194e99e27c").then((res) => {
       this.setState({
         alerts: res.data.alerts,
       });

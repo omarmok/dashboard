@@ -9,7 +9,7 @@ class Userdropdown extends React.Component {
     userdown: [],
   };
   componentDidMount() {
-    axios.get("../data.json").then((res) => {
+    axios.get("https://api.npoint.io/7c336023e3194e99e27c").then((res) => {
       this.setState({ userdown: res.data.userdropdown });
     });
   }
