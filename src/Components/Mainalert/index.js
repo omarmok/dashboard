@@ -24,7 +24,7 @@ class Mainalert extends Component {
       return (
         <Carousel.Item key={alertsmessages.id}>
           <Carousel.Caption>
-            <div className="d-flex justify-content-between   align-items-center">
+            <div className="d-flex justify-content-between   align-items-center message_detail">
               <Description> {alertsmessages.description} </Description>
               <Anchor href={alertsmessages.link} className="btn ">
                 التفاصيل{" "}
@@ -37,10 +37,12 @@ class Mainalert extends Component {
 
     return (
       <Alert className="Custom">
-        <div className="pl-1">
+        <div className=" pl-1">
           <img src={Shout} alt="Shout" className="alert__image" />
         </div>
+
         <Carousel> {alertsmessagesitem} </Carousel>
+
       </Alert>
     );
   }

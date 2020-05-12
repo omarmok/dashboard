@@ -8,6 +8,9 @@ export const Anchor = styled.a`
     color: #fff;
     text-decoration: underline;
   }
+  @media (max-width: 800px) {
+    margin-top: 32px;
+  }
 `;
 
 export const Description = styled.div`

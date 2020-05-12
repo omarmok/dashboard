@@ -6,7 +6,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 .alert__image {
@@ -35,7 +35,8 @@
   bottom: 0;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   background: #f9f9f9;
   opacity: 1;
   width: 3%;
@@ -49,25 +50,38 @@
   top: 40px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-image: none;
 }
 
 .carousel-control-prev-icon:after {
-  background-image: url('../../images/up-arrow.svg');
+  background-image: url("../../images/up-arrow.svg");
   background-size: 20px 20px;
   display: inline-block;
   width: 20px;
   height: 20px;
-  content: '';
+  content: "";
 }
 
 .carousel-control-next-icon:after {
-  background-image: url('../../images/up-arrow.svg');
+  background-image: url("../../images/up-arrow.svg");
   background-size: 20px 20px;
   display: inline-block;
   width: 20px;
   height: 20px;
-  content: '';
+  content: "";
   transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 800px) {
+  .Custom {
+    flex-direction: column;
+  }
+  .alert__image {
+    border: none;
+  }
+  .message_detail {
+    flex-direction: column;
+  }
 }
