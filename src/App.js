@@ -8,6 +8,7 @@ import Judgments from "./Components/Usersstatistics/Judgments";
 import Lawsuitcarousal from "./Components/Usersstatistics/Lawsuitcarousal";
 import Invoices from "./Components/Usersstatistics/Invoices";
 import Submitnewlawsuitfill from "./Components/Submitnewlawsuitfill";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 import Mainnav from "./Components/Mainnav";
@@ -38,6 +39,10 @@ function App() {
               <Route path="/Submitnewlawsuitfill" component={Submitnewlawsuitfill}></Route>
               <Route path="/Index" component={Index}></Route>
             </Col>
+          </Row>
+
+          <Row>
+            <Footer />
           </Row>
 
         </Container>

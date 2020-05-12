@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.46f847b2.chunk.css",
-    "main.js": "/dashboard/static/js/main.2270b56d.chunk.js",
-    "main.js.map": "/dashboard/static/js/main.2270b56d.chunk.js.map",
+    "main.css": "/dashboard/static/css/main.66be0d4d.chunk.css",
+    "main.js": "/dashboard/static/js/main.0565df97.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.0565df97.chunk.js.map",
     "runtime-main.js": "/dashboard/static/js/runtime-main.ca6bc846.js",
     "runtime-main.js.map": "/dashboard/static/js/runtime-main.ca6bc846.js.map",
     "static/css/2.74189dbb.chunk.css": "/dashboard/static/css/2.74189dbb.chunk.css",
-    "static/js/2.9b573853.chunk.js": "/dashboard/static/js/2.9b573853.chunk.js",
-    "static/js/2.9b573853.chunk.js.map": "/dashboard/static/js/2.9b573853.chunk.js.map",
+    "static/js/2.7e75d12c.chunk.js": "/dashboard/static/js/2.7e75d12c.chunk.js",
+    "static/js/2.7e75d12c.chunk.js.map": "/dashboard/static/js/2.7e75d12c.chunk.js.map",
     "index.html": "/dashboard/index.html",
-    "precache-manifest.ba7e8cd0d2249ab0701826eae260af47.js": "/dashboard/precache-manifest.ba7e8cd0d2249ab0701826eae260af47.js",
+    "precache-manifest.e53b1cfdea955fae0d616264d92306b6.js": "/dashboard/precache-manifest.e53b1cfdea955fae0d616264d92306b6.js",
     "service-worker.js": "/dashboard/service-worker.js",
     "static/css/2.74189dbb.chunk.css.map": "/dashboard/static/css/2.74189dbb.chunk.css.map",
-    "static/css/main.46f847b2.chunk.css.map": "/dashboard/static/css/main.46f847b2.chunk.css.map",
-    "static/js/2.9b573853.chunk.js.LICENSE.txt": "/dashboard/static/js/2.9b573853.chunk.js.LICENSE.txt",
+    "static/css/main.66be0d4d.chunk.css.map": "/dashboard/static/css/main.66be0d4d.chunk.css.map",
+    "static/js/2.7e75d12c.chunk.js.LICENSE.txt": "/dashboard/static/js/2.7e75d12c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dashboard/static/media/BukraAlt_Bold.5ecb3ff2.ttf",
     "static/media/Submitnew.svg": "/dashboard/static/media/Submitnew.a466c508.svg",
-    "static/media/YouTubeLogo.1db42e6e.svg": "/dashboard/static/media/YouTubeLogo.1db42e6e.svg",
+    "static/media/YouTubeLogo.svg": "/dashboard/static/media/YouTubeLogo.1db42e6e.svg",
     "static/media/document.svg": "/dashboard/static/media/document.1d4f7b6b.svg",
     "static/media/paper.svg": "/dashboard/static/media/paper.2d3b41e2.svg",
     "static/media/shout.svg": "/dashboard/static/media/shout.fe839f11.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.ca6bc846.js",
     "static/css/2.74189dbb.chunk.css",
-    "static/js/2.9b573853.chunk.js",
-    "static/css/main.46f847b2.chunk.css",
-    "static/js/main.2270b56d.chunk.js"
+    "static/js/2.7e75d12c.chunk.js",
+    "static/css/main.66be0d4d.chunk.css",
+    "static/js/main.0565df97.chunk.js"
   ]
 }
