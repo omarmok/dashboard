@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "axios";
+
 import { Link } from "react-router-dom";
 import Table from "react-bootstrap/Table";
 import DetailsImage from "../../../../images/document.svg";
@@ -24,11 +24,10 @@ class All extends Component {
     all: [],
   };
   componentDidMount() {
-    axios.get("https://api.npoint.io/7c336023e3194e99e27c").then((res) => {
-      this.setState({
-        all: res.data.all,
-      });
-    });
+    fetch('https://api.npoint.io/7c336023e3194e99e27c')
+      .then(res => res.json())
+      .then(data => this.setState({ all: data.all, }));
+
   }
 
   render() {
