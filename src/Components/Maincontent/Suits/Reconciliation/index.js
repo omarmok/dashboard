@@ -12,14 +12,22 @@ class Reconciliation extends Component {
     all: [],
   };
   componentDidMount() {
-    axios.get("https://api.npoint.io/7c336023e3194e99e27c").then((res) => {
+    axios.get("https://api.npoint.io/2f62dad45c2ddd7e9ec0").then((res) => {
       this.setState({ all: res.data.all });
     });
   }
 
   render() {
     const { all } = this.state;
+    const deletetabelrow = (id) => {
+      let all = this.state.all.filter(all => {
+        return all.id !== id
+      })
 
+      this.setState({ all })
+      console.log(id)
+
+    }
     const allcontainer = all.map((allContent) => {
       return (
         <tr key={allContent.id}>
@@ -39,12 +47,8 @@ class Reconciliation extends Component {
             </Link>
           </td>
           <td>
-            <button
-              className="btn btn-danger"
-              onClick={() => this.handleClick()}
-            >
-              حذف
-            </button>
+            <button className="btn btn-danger" onClick={() => deletetabelrow(allContent.id)}> حذف</button>
+
           </td>
         </tr>
       );
