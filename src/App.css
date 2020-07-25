@@ -48,3 +48,9 @@ ul {
 .form-control {
   font-size: 12px;
 }
+
+.form-control:focus {
+  border-color: #00c269;
+
+  box-shadow: none;
+}
