@@ -48,31 +48,24 @@
       "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
     }
   ],
-
   "alerts": [
     {
       "id": 1,
-
       "description": "يوجد لديك ١٠ رسائل يجب قراءتها",
       "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
     },
-
     {
       "id": 2,
-
       "description": "تمت الموافقه علي طلبك رقم ٢٣٢٣",
       "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
     }
   ],
-
   "userdropdown": [
     {
       "id": 1,
-
       "name": "احمد محمد علي خالد"
     }
   ],
-
   "all": [
     {
       "id": "1",
@@ -83,7 +76,6 @@
       "status": "تم الارسال",
       "dateupdate": "20/10/2020"
     },
-
     {
       "id": "2",
       "no": "55490",
@@ -111,7 +103,6 @@
       "status": "تم الارسال",
       "dateupdate": "20/10/2020"
     },
-
     {
       "id": "5",
       "no": "864",
@@ -139,7 +130,6 @@
       "status": "تم الارسال",
       "dateupdate": "20/10/2020"
     },
-
     {
       "id": "8",
       "no": "432",
@@ -167,7 +157,6 @@
       "status": "تم الارسال",
       "dateupdate": "20/10/2020"
     },
-
     {
       "id": "11",
       "no": "313",
@@ -178,7 +167,7 @@
       "dateupdate": "20/10/2020"
     },
     {
-      "id": "6",
+      "id": "12",
       "no": "541",
       "kind": "اتحاد ملاك",
       "claimant": "احمد محمد علي خالد",
@@ -187,11 +176,9 @@
       "dateupdate": "20/10/2020"
     }
   ],
-
   "ussermassages": [
     {
       "id": 1,
-
       "no": "32"
     }
   ]
