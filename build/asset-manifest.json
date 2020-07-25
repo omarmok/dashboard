@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.30a3fbc0.chunk.css",
+    "main.css": "/dashboard/static/css/main.4f7d9455.chunk.css",
     "main.js": "/dashboard/static/js/main.71814f7d.chunk.js",
     "main.js.map": "/dashboard/static/js/main.71814f7d.chunk.js.map",
     "runtime-main.js": "/dashboard/static/js/runtime-main.2ec0fa51.js",
@@ -9,10 +9,10 @@
     "static/js/2.8e2b7b3c.chunk.js": "/dashboard/static/js/2.8e2b7b3c.chunk.js",
     "static/js/2.8e2b7b3c.chunk.js.map": "/dashboard/static/js/2.8e2b7b3c.chunk.js.map",
     "index.html": "/dashboard/index.html",
-    "precache-manifest.671c3b7819b6fec810771f6095c18387.js": "/dashboard/precache-manifest.671c3b7819b6fec810771f6095c18387.js",
+    "precache-manifest.5ff2e45c80172411d6751669a2886d4b.js": "/dashboard/precache-manifest.5ff2e45c80172411d6751669a2886d4b.js",
     "service-worker.js": "/dashboard/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/dashboard/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.30a3fbc0.chunk.css.map": "/dashboard/static/css/main.30a3fbc0.chunk.css.map",
+    "static/css/main.4f7d9455.chunk.css.map": "/dashboard/static/css/main.4f7d9455.chunk.css.map",
     "static/js/2.8e2b7b3c.chunk.js.LICENSE.txt": "/dashboard/static/js/2.8e2b7b3c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dashboard/static/media/BukraAlt_Bold.5ecb3ff2.ttf",
     "static/media/Submitnew.svg": "/dashboard/static/media/Submitnew.a466c508.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.2ec0fa51.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.8e2b7b3c.chunk.js",
-    "static/css/main.30a3fbc0.chunk.css",
+    "static/css/main.4f7d9455.chunk.css",
     "static/js/main.71814f7d.chunk.js"
   ]
 }
