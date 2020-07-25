@@ -1,0 +1,185 @@
+{
+  "slider": [
+    {
+      "id": 1,
+      "image": "../images/cat.jpg",
+      "title": "cat",
+      "description": "catcatcatcatcatcatcatcatcatcatcatcatcatcatcat",
+      "link": "https://www.housing.gov.sa/"
+    },
+    {
+      "id": 2,
+      "image": "../images/lion.jpg",
+      "title": "lion",
+      "description": "lionlionlionlionlionlionlionlionlionlion",
+      "link": "https://www.housing.gov.sa/"
+    },
+    {
+      "id": 3,
+      "image": "../images/bird.jpg",
+      "title": "bird",
+      "description": "birdbirdbirdbirdbirdbirdbirdbirdbirdbird",
+      "link": "https://www.housing.gov.sa/"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "image": "../images/darwish.jpg",
+      "name": "محمود درويش",
+      "Job": "شاعر فلسطيني",
+      "description": "محمود درويش (13 مارس 1941 - 9 أغسطس 2008)، أحد أهم الشعراء الفلسطينيين والعرب والعالميين الذين ارتبط اسمهم بشعر الثورة والوطن. يعتبر درويش أحد أبرز من ساهم بتطوير الشعر العربي الحديث وإدخال الرمزية فيه. في شعر درويش يمتزج الحب بالوطن بالحبيبة الأنثى. قام بكتابة وثيقة إعلان الاستقلال الفلسطيني  التي تم إعلانها في الجزائر.",
+      "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
+    },
+    {
+      "id": 2,
+      "image": "../images/saudiman.jpg",
+      "name": "غير معروف",
+      "Job": "Developer",
+      "description": "لايوجد",
+      "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
+    },
+    {
+      "id": 3,
+      "image": "../images/abou.jpg",
+      "name": "محمد محمد محمد ابوتريكة",
+      "Job": "عم الناس",
+      "description": "عم الناس برضه",
+      "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "description": "يوجد لديك ١٠ رسائل يجب قراءتها",
+      "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
+    },
+    {
+      "id": 2,
+      "description": "تمت الموافقه علي طلبك رقم ٢٣٢٣",
+      "link": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF_%D8%AF%D8%B1%D9%88%D9%8A%D8%B4"
+    }
+  ],
+  "userdropdown": [
+    {
+      "id": 1,
+      "name": "احمد محمد علي خالد"
+    }
+  ],
+  "all": [
+    {
+      "id": "1",
+      "no": "3232",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "2",
+      "no": "55490",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "3",
+      "no": "452",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "4",
+      "no": "275",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "5",
+      "no": "864",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "6",
+      "no": "146",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "7",
+      "no": "532",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "8",
+      "no": "432",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "9",
+      "no": "4241",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "10",
+      "no": "1133",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "11",
+      "no": "313",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    },
+    {
+      "id": "12",
+      "no": "541",
+      "kind": "اتحاد ملاك",
+      "claimant": "احمد محمد علي خالد",
+      "defendant": "خالد محمد خالد",
+      "status": "تم الارسال",
+      "dateupdate": "20/10/2020"
+    }
+  ],
+  "ussermassages": [
+    {
+      "id": 1,
+      "no": "32"
+    }
+  ]
+}

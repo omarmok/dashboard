@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.30a3fbc0.chunk.css",
+    "main.js": "/dashboard/static/js/main.3fd73e72.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.3fd73e72.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.2ec0fa51.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.2ec0fa51.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/dashboard/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4a847d18.chunk.js": "/dashboard/static/js/2.4a847d18.chunk.js",
+    "static/js/2.4a847d18.chunk.js.map": "/dashboard/static/js/2.4a847d18.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "precache-manifest.47bfe93049bd2a7d25b66f9d1655a298.js": "/dashboard/precache-manifest.47bfe93049bd2a7d25b66f9d1655a298.js",
+    "service-worker.js": "/dashboard/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/dashboard/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.30a3fbc0.chunk.css.map": "/dashboard/static/css/main.30a3fbc0.chunk.css.map",
+    "static/js/2.4a847d18.chunk.js.LICENSE.txt": "/dashboard/static/js/2.4a847d18.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dashboard/static/media/BukraAlt_Bold.5ecb3ff2.ttf",
+    "static/media/Submitnew.svg": "/dashboard/static/media/Submitnew.a466c508.svg",
+    "static/media/YouTubeLogo.svg": "/dashboard/static/media/YouTubeLogo.1db42e6e.svg",
+    "static/media/document.svg": "/dashboard/static/media/document.1d4f7b6b.svg",
+    "static/media/paper.svg": "/dashboard/static/media/paper.2d3b41e2.svg",
+    "static/media/shout.svg": "/dashboard/static/media/shout.fe839f11.svg",
+    "static/media/style.css": "/dashboard/static/media/up-arrow.1885a8a0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ec0fa51.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4a847d18.chunk.js",
+    "static/css/main.30a3fbc0.chunk.css",
+    "static/js/main.3fd73e72.chunk.js"
+  ]
+}
