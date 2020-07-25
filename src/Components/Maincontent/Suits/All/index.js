@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import Table from "react-bootstrap/Table";
+import Modal from "react-bootstrap/Modal";
 import DetailsImage from "../../../../images/document.svg";
 import "./style.css";
 class All extends Component {
@@ -19,13 +20,6 @@ class All extends Component {
   //     all: [this.state.all.splice(index, 1)],
   //   });
   // };
-
-
-
-
-
-
-
 
   state = {
     all: [],
@@ -61,6 +55,7 @@ class All extends Component {
 
       this.setState({ all })
       console.log(id)
+      alert('هل انت متاكد من  الحذف ');
 
     }
 
@@ -75,12 +70,7 @@ class All extends Component {
           <td> {allContent.status} </td>
           <td> {allContent.dateupdate} </td>
           <td>
-            <Link to="/" title="">
-              <img
-                src={DetailsImage}
-                alt="DetailsImage"
-                className="DetailsImage"
-              />
+            <Link to="/" title="" > <img src={DetailsImage} alt="DetailsImage" className="DetailsImage" />
             </Link>
           </td>
           <td>
