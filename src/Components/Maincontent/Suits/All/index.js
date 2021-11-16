@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import Table from "react-bootstrap/Table";
-import Modal from "react-bootstrap/Modal";
 import DetailsImage from "../../../../images/document.svg";
 import "./style.css";
 class All extends Component {
